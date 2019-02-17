@@ -32,7 +32,7 @@ function clean(text) {
         return text;
 }
 
-const prefix = "البريفكس";
+const prefix = "-";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
@@ -114,4 +114,4 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login("NTQ2ODE0NzUwNTMzNjE1NjI3.D0ts-A.1zLjMunTPHPDmOlLxuzgF78ppZA");
